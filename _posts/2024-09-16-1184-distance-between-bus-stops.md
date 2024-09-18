@@ -4,7 +4,7 @@ title: Distance Between Bus Stops
 subtitle: Java/Kotlin
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [algorithm, array]
+tags: [algorithm, array, easy]
 author: Yiding He
 ---
 
