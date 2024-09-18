@@ -4,7 +4,7 @@ title: 2414. Length of the Longest Alphabetical Continuous Substring
 subtitle: Java/Kotlin
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [algorithm, array, easy]
+tags: [algorithm, string, medium]
 author: Yiding He
 ---
 
