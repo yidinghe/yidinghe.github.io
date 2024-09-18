@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Count Good Triplets
+title: 1534. Count Good Triplets
 subtitle: Java/Kotlin
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
