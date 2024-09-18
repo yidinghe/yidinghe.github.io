@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Three Consecutive Odds
+title: 1550. Three Consecutive Odds
 subtitle: Java/Kotlin
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
