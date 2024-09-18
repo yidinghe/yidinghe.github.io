@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Distance Between Bus Stops
+title: 1184. Distance Between Bus Stops
 subtitle: Java/Kotlin
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
