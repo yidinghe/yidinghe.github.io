@@ -10,6 +10,8 @@ author: Yiding He
 
 ## 2535. Difference Between Element Sum and Digit Sum of an Array
 
+[Question Link](https://leetcode.cn/problems/difference-between-element-sum-and-digit-sum-of-an-array/description/)
+
 You are given a positive integer array nums.
 
 The element sum is the sum of all the elements in nums.
@@ -37,6 +39,10 @@ The element sum of nums is 1 + 2 + 3 + 4 = 10.
 The digit sum of nums is 1 + 2 + 3 + 4 = 10.
 The absolute difference between the element sum and digit sum is |10 - 10| = 0.
 
+### Note
+
+{: .box-note}
+**Note:** 算digit相加，和总数比较数量大小。
 
 
 ### Java
