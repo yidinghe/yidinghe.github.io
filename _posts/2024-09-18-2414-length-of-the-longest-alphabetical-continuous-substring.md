@@ -10,6 +10,8 @@ author: Yiding He
 
 ## 2414. Length of the Longest Alphabetical Continuous Substring
 
+[Question Link](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring/description/)
+
 An alphabetical continuous string is a string consisting of consecutive letters in the alphabet. In other words, it is any substring of the string "abcdefghijklmnopqrstuvwxyz".
 
 For example, "abc" is an alphabetical continuous string, while "acb" and "za" are not.
@@ -28,6 +30,11 @@ Example 2:
 Input: s = "abcde"
 Output: 5
 Explanation: "abcde" is the longest continuous substring.
+
+### Note
+
+{: .box-note}
+**Note:** 计数，一个变量记录当前的max值，一个变量循环中有上升就继续加加，最后比大小。
 
 
 ### Java
