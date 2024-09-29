@@ -10,6 +10,8 @@ author: Yiding He
 
 ## 867. Transpose Matrix
 
+[Question Link](https://leetcode.cn/problems/transpose-matrix/description/)
+
 Given a 2D integer array matrix, return the transpose of matrix.
 
 The transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.
@@ -26,6 +28,12 @@ Example 2:
 
 Input: matrix = [[1,2,3],[4,5,6]]
 Output: [[1,4],[2,5],[3,6]]
+
+
+### Note
+
+{: .box-note}
+**Note:** 做一个新的矩阵，然后for循环赋值。
 
 
 ### Java
