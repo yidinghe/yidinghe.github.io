@@ -10,6 +10,8 @@ author: Yiding He
 
 ## 896. Monotonic Array
 
+[Question Link](https://leetcode.cn/problems/monotonic-array/description/)
+
 An array is monotonic if it is either monotone increasing or monotone decreasing.
 
 An array nums is monotone increasing if for all i <= j, nums[i] <= nums[j]. An array nums is monotone decreasing if for all i <= j, nums[i] >= nums[j].
@@ -31,6 +33,10 @@ Example 3:
 Input: nums = [1,3,2]
 Output: false
 
+### Note
+
+{: .box-note}
+**Note:** for循环走两边。
 
 
 ### Java
