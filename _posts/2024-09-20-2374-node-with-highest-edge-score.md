@@ -10,6 +10,8 @@ author: Yiding He
 
 ## 2374. Node With Highest Edge Score
 
+[Question Link](https://leetcode.cn/problems/node-with-highest-edge-score/description/)
+
 You are given a directed graph with n nodes labeled from 0 to n - 1, where each node has exactly one outgoing edge.
 
 The graph is represented by a given 0-indexed integer array edges of length n, where edges[i] indicates that there is a directed edge from node i to node edges[i].
@@ -41,6 +43,10 @@ Explanation:
 - The nodes 0 and 3 have an edge pointing to node 2. The edge score of node 2 is 0 + 3 = 3.
 Nodes 0 and 2 both have an edge score of 3. Since node 0 has a smaller index, we return 0.
 
+### Note
+
+{: .box-note}
+**Note:** 一个array或是set来统计边积分，最后比大小，需要注意的是long。
 
 ### Java
 
