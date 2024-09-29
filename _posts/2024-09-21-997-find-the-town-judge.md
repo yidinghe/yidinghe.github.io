@@ -10,6 +10,8 @@ author: Yiding He
 
 ## 997. Find the Town Judge
 
+[Question Link](https://leetcode.cn/problems/find-the-town-judge/description/)
+
 In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge.
 
 If the town judge exists, then:
@@ -35,6 +37,11 @@ Example 3:
 
 Input: n = 3, trust = [[1,3],[2,3],[3,1]]
 Output: -1
+
+### Note
+
+{: .box-note}
+**Note:** 统计出入度，寻找的是入度为n-1和出度为0的元素。
 
 ### Java
 
