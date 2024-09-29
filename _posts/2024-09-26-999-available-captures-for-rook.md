@@ -10,6 +10,8 @@ author: Yiding He
 
 ## 999. Available Captures for Rook
 
+[Question Link](https://leetcode.cn/problems/available-captures-for-rook/description/)
+
 You are given an 8 x 8 matrix representing a chessboard. There is exactly one white rook represented by 'R', some number of white bishops 'B', and some number of black pawns 'p'. Empty squares are represented by '.'.
 
 A rook can move any number of squares horizontally or vertically (up, down, left, right) until it reaches another piece or the edge of the board. A rook is attacking a pawn if it can move to the pawn's square in one move.
@@ -52,6 +54,11 @@ Output: 3
 Explanation:
 
 The rook is attacking the pawns at positions b5, d6, and f5.
+
+### Note
+
+{: .box-note}
+**Note:** 方向数组。
 
 
 ### Java
