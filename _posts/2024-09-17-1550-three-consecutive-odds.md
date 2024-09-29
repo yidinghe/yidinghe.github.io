@@ -10,6 +10,8 @@ author: Yiding He
 
 ## 1550. Three Consecutive Odds
 
+[Question Link](https://leetcode.cn/problems/three-consecutive-odds/description/)
+
 Given an integer array arr, return true if there are three consecutive odd numbers in the array. Otherwise, return false.
  
 
@@ -23,6 +25,11 @@ Example 2:
 Input: arr = [1,2,34,3,4,5,7,23,12]
 Output: true
 Explanation: [5,7,23] are three consecutive odds.
+
+### Note
+
+{: .box-note}
+**Note:** for循环按题意计数。
 
 ### Java
 
