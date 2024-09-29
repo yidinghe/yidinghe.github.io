@@ -10,6 +10,8 @@ author: Yiding He
 
 ## 1450. Number of Students Doing Homework at a Given Time
 
+[Question Link](https://leetcode.cn/problems/number-of-students-doing-homework-at-a-given-time/description/)
+
 Given two integer arrays startTime and endTime and given an integer queryTime.
 
 The ith student started doing their homework at the time startTime[i] and finished it at time endTime[i].
@@ -31,6 +33,11 @@ Example 2:
 Input: startTime = [4], endTime = [4], queryTime = 4
 Output: 1
 Explanation: The only student was doing their homework at the queryTime.
+
+### Note
+
+{: .box-note}
+**Note:** for循环
 
 
 ### Java
