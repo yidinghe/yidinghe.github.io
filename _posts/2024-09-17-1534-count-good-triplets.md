@@ -10,6 +10,8 @@ author: Yiding He
 
 ## 1534. Count Good Triplets
 
+[Question Link](https://leetcode.cn/problems/count-good-triplets/description/)
+
 Given an array of integers arr, and three integers a, b and c. You need to find the number of good triplets.
 
 A triplet (arr[i], arr[j], arr[k]) is good if the following conditions are true:
@@ -34,6 +36,11 @@ Example 2:
 Input: arr = [1,1,2,2,3], a = 0, b = 0, c = 1
 Output: 0
 Explanation: No triplet satisfies all conditions.
+
+### Note
+
+{: .box-note}
+**Note:** for循环一遍按题意计数。
 
 
 ### Java
