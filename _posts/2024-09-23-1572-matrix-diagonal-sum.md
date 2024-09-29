@@ -10,6 +10,8 @@ author: Yiding He
 
 ## 1572. Matrix Diagonal Sum
 
+[Question Link](https://leetcode.cn/problems/matrix-diagonal-sum/description/)
+
 Given a square matrix mat, return the sum of the matrix diagonals.
 
 Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.
@@ -37,23 +39,26 @@ Example 3:
 Input: mat = [[5]]
 Output: 5
 
+### Note
 
+{: .box-note}
+**Note:** 矩阵走一遍，把i==j和i+j==n-1的元素全部相加即可。
 
 ### Java
 
 ```java
 class Solution {
-    fun diagonalSum(mat: Array<IntArray>): Int {
-        val n = mat.size
-        var sum = 0
-        for (i in 0 until n) {
-            for (j in 0 until n) {
+    public int diagonalSum(int[][] mat) {
+        int n = mat.length;
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
                 if (i == j || i + j == n - 1) {
-                    sum += mat[i][j]
+                    sum += mat[i][j];
                 }
             }
         }
-        return sum
+        return sum;
     }
 }
 ```
